@@ -1,0 +1,123 @@
+<Element
+  width="m: (510, 510, 510), d: 150"
+  height="m: (360, 360, 360), d: 100"
+  margin="m: (15, 15, 15), d: 5"
+  backgroundColor="glm::vec4(0, 197, 232, 255)"
+  borderSize="m: (6, 6, 6), d: 2"
+  borderColor="all: 255"
+  >
+
+<!--  <Shadow-->
+<!--    color="#CAA1FD77"-->
+<!--    blurSize="30">-->
+<!--  </Shadow>-->
+
+  <Element
+    element="mBG3"
+    width="100%"
+    height="100%"
+    backgroundSize="Contain">
+
+    <!-- <Element
+      element="mOverlay"
+      width="100%"
+      height="100%"
+      positionType="Absolute"
+      backgroundSize="Cover"
+      backgroundImageColor="glm::vec4(255)"
+      backgroundImage="Cars/images/card_overlay.png">
+    </Element> -->
+
+    <Element
+      element="mLogo"
+      width="m: (75, 75, 75), d:25"
+      aspectRatio="1"
+      positionType="Absolute"
+      left="m: (30, 30, 30), d:10"
+      top="m: (30, 30, 30), d:10">
+    </Element>
+
+    <Element
+      element="mImage"
+      width="80%"
+      aspectRatio="1"
+      positionType="Absolute"
+      backgroundSize="Contain"
+      right="0">
+    </Element>
+
+    <Element
+      element="mFlicker"
+      width="100%"
+      height="100%"
+      backgroundColor="glm::vec4(255, 255, 255, 0)"
+      opacity="0">
+    </Element>
+    <Element
+      width="100%"
+      height="100%"
+      positionType="Absolute"
+      overflow="Hidden">
+      <Element
+        element="mLight"
+        opacity="0"
+        width="150%"
+        height="m: (180, 180, 180), d: 60"
+        backgroundColor="all: 255"
+        positionType="Absolute"
+        borderRadius="2"
+        smoothFactor="120"
+        rotation="30, glm::vec3(0, 0, 1), e3::ETransformAlignment::Center">
+      </Element>
+    </Element>
+
+    <Element
+      width="80%"
+      height="100%"
+      positionType="Absolute"
+      bottom="0"
+      left="0"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 1, 0, 0)"
+      backgroundColor="glm::vec4(255, 255, 255, 50)">
+    </Element>
+
+    
+    <Element
+      backgroundColor="glm::vec4(183, 255, 28, 255)"
+      positionType="Absolute"
+      width="40%"
+      alignItemsHor="End"
+      top="0"
+      right="0"
+      padding="5"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 0, 0, 1)">
+      <Text
+        element="mCount"
+        text="x17"
+        fontSize="m: (42, 42, 42), d: 12"
+        fontStyle="Bold">
+      </Text>
+    </Element>
+    <Element
+      backgroundColor="all: 255"
+      positionType="Absolute"
+      width="90%"
+      bottom="-2"
+      left="-2"
+      padding="4"
+      alignItemsHor="Start"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 1, 0, 0)">
+      <Text
+        element="mTitle"
+        fontStyle="Bold"
+        fontSize="m: (42, 42, 42), d: 10">
+      </Text>
+    </Element>
+  </Element>
+
+  
+
+</Element>

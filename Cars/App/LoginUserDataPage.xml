@@ -1,0 +1,47 @@
+<Col
+  width="100%">
+
+  <Element
+    width="100"
+    height="120"
+    borderSize="1"
+    borderColor="all: 255">
+  </Element>
+
+  <Element
+      marginTop="10"
+      orientation="Vertical">
+      <Input
+        element="mFirstNameInput"
+        hint="FIRST NAME"
+        width="m: (750, 750, 750), d: 250"
+        height="m: (150, 150, 150), d: 50"
+        hintColor="all: 255"
+        fontSize="m: (60, 60, 60), d: 20"
+        textColor="all: 255">
+      </Input>
+      <Element
+        width="m: (750, 750, 750), d: 250"
+        height="m: (6, 6, 6), d: 2"
+        backgroundColor="glm::vec4(255, 0, 76, 255)">
+      </Element>
+    </Element>
+    <Element
+        marginTop="10"
+        orientation="Vertical">
+        <Input
+          element="mSecondNameInput"
+          hint="SECOND NAME"
+          width="m: (750, 750, 750), d: 250"
+          height="m: (150, 150, 150), d: 50"
+          hintColor="all: 255"
+          fontSize="m: (60, 60, 60), d: 20"
+          textColor="all: 255">
+        </Input>
+        <Element
+          width="m: (750, 750, 750), d: 250"
+          height="m: (6, 6, 6), d: 2"
+          backgroundColor="glm::vec4(255, 0, 76, 255)">
+        </Element>
+      </Element>
+</Col>

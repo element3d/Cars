@@ -1,0 +1,10 @@
+<FontIcon
+  element="mEngineTypeChevron"
+  width="m: 48, d: 16"
+  aspectRatio="1"
+  positionType="Absolute"
+  right="m: 30, d: 10"
+  color="glm::vec4(255, 0, 76, 255)"
+  font="_s(Cars/fonts/icons.ttf)"
+  charcode="E801">
+</FontIcon>

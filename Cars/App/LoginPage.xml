@@ -1,0 +1,95 @@
+<Element
+  width="100%"
+  height="100%"
+  positionType="Absolute"
+  backgroundColor="glm::vec4(0, 0, 0, 150)"
+  stopEvents="true">
+
+  <Element
+    element="mBody"
+    width="80%"
+    orientation="Vertical">
+    <!-- backgroundImage="BmwClub/images/light_gr2.png"
+    borderSize="1"
+    borderColor="all: 255" -->
+
+    <!-- <Element
+      positionType="Absolute"
+      width="m: (360, 360, 360), d: 120"
+      height="m: (180, 180, 180), d: 60"
+      right="0"
+      top="0"
+      borderType="Cut"
+      borderRadius="glm::vec4(60, 0, 60, 0)"
+      backgroundColor="all: 255">
+    </Element>
+    <Element
+      positionType="Absolute"
+      width="m: (360, 360, 360), d: 120"
+      height="m: (240, 240, 240), d: 80"
+      borderRadius="glm::vec4(80, 0, 80, 0)"
+      borderType="Cut"
+      backgroundColor="glm::vec4(255, 0, 76, 255)"
+      right="0"
+      top="0">
+    </Element> -->
+
+    <Col
+      element="mContainer"
+      width="100%">
+      <Text
+        text="LOGIN"
+        fontStyle="Bold"
+        fontSize="m: (66, 66, 66), d: 22"
+        textColor="all: 255">
+      </Text>
+      <Element
+        orientation="Vertical">
+        <Input
+          element="mInput"
+          hint="PHONE"
+          width="m: (750, 750, 750), d: 250"
+          height="m: (150, 150, 150), d: 50"
+          hintColor="all: 255"
+          fontSize="m: (60, 60, 60), d: 20"
+          textColor="all: 255">
+        </Input>
+        <Element
+          width="m: (750, 750, 750), d: 250"
+          height="m: (6, 6, 6), d: 2"
+          backgroundColor="glm::vec4(255, 0, 76, 255)">
+        </Element>
+      </Element>
+    </Col>
+    <!-- <Element
+      orientation="Vertical">
+      <Input
+        width="250"
+        height="50">
+      </Input>
+      <Element
+        width="250"
+        height="2"
+        backgroundColor="glm::vec4(255, 0, 76, 255)">
+      </Element>
+    </Element> -->
+    <Row
+      width="100%"
+      marginTop="20"
+      alignItemsHor="End">
+      <Button
+        element="mNextButton">
+      </Button>
+    </Row>
+
+  </Element>
+<!-- 
+  <Element
+    element="mMask"
+    backgroundColor="all: 255"
+    width="80%"
+    aspectRatio="1"
+    positionType="Absolute">
+  </Element> -->
+
+</Element>

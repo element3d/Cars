@@ -1,0 +1,9 @@
+<Element
+  width="m: (900, 900, 900), d: 300"
+  height="m: (600, 600, 600), d: 200"
+  borderSize="m: (3, 3, 3), d: 1"
+  borderColor="all: 255"
+  backgroundSize="Cover"
+  margin="m: (24, 24, 24), d: 8">
+  
+</Element>

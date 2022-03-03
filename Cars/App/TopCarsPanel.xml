@@ -1,0 +1,42 @@
+<Col
+  width="100%"
+  alignItemsVer="Center"
+  alignItemsHor="Start">
+
+  <AnimatedTitle
+    element="mTitle"
+    marginLeft="20dp"
+    text1="_s(TOP)"
+    text2="_s(CARS)">
+  </AnimatedTitle>
+
+<!-- 
+  <Text 
+    marginLeft="m: (60, 60, 60), d: 20"
+    text="TOP CARS"
+    fontSize="m: (48, 48, 48), d: 16"
+    fontStyle="Bold"
+    textColor="all: 255">
+  </Text> -->
+  <Element
+    width="100%"
+    scaling="Shrink"
+    marginTop="10">
+    <Row
+      element="mScroll"
+      minHeight="m: (330, 330, 330), d: 110"
+      width="100%"
+      overflow="Scroll"
+      alignItemsVer="Center">
+    </Row>
+    <Element
+      element="mMask"
+      positionType="Absolute"
+      width="100%"
+      height="100%"
+      backgroundColor="all: 255">
+    </Element>
+  </Element>
+
+
+</Col>

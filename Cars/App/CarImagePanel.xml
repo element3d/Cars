@@ -1,0 +1,74 @@
+<Row
+  width="100%"
+  alignItemsHor="Start">
+  <Col>
+    <Element
+      element="mCardContainer"
+      borderSize="2"
+      borderColor="all: 255"
+      width="m: (300, 300, 300), d: 100"
+      height="m: (420, 420, 420), d: 140"
+      marginLeft="20">
+      <Element
+        element="mCard"
+        backgroundSize="Cover"
+        width="100%"
+        height="100%">
+      </Element>
+    
+      <Element
+        element="mCardMask"
+        width="100%"
+        height="100%"
+        backgroundColor="all: 255"
+        positionType="Absolute"
+        marginLeft="0"
+        marginRight="0">
+      </Element> 
+    </Element>
+  </Col>
+  <Col
+    width="100%"
+    scaling="Shrink"
+    alignItemsHor="Start">
+
+    <Col
+      element="mCarImages"
+      visibility="Hidden"
+      width="100%"
+      height="m: (420, 420, 420), d: 120"
+      positionType="Absolute"
+      left="0">
+
+      <Element
+        width="100%"
+        height="2"
+        backgroundColor="all: 255">
+      </Element>
+      <Row
+        element="mImagesContainer"
+        backgroundImage="Cars/images/login.png"
+        backgroundSize="Cover"
+        overflow="Scroll"
+        alignItemsVer="Center"
+        width="100%"
+        height="100%"
+        scaling="Shrink">
+      </Row>
+      <Element
+        width="100%"
+        height="2"
+        backgroundColor="all: 255">
+      </Element>
+    </Col>
+    
+   
+    <Element
+      element="mMask"
+      width="100%"
+      height="m: (420, 420, 420), d: 100"
+      backgroundColor="all: 255"
+      positionType="Absolute">
+    </Element>
+  </Col>
+</Row>

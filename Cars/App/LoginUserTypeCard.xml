@@ -1,0 +1,20 @@
+<Col
+  width="100"
+  aspectRatio="1"
+  borderSize="1"
+  margin="2"
+  borderColor="all: 255"
+  alignItemsVer="End">
+
+  <Element
+    width="100%"
+    padding="2"
+    backgroundColor="all: 255">
+    <Text
+      element="mTitle"
+      fontSize="10"
+      text="">
+    </Text>
+  </Element>
+
+</Col>

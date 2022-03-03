@@ -1,0 +1,21 @@
+<Element
+  orientation="Vertical">
+
+  <Map
+    element="mMap"
+    positionType="Absolute">
+  </Map>
+
+  <AppBar
+    element="mAppBar"
+    scaling="Grow">
+  </AppBar>
+
+  <E3Logo
+    element="mE3Logo"
+    color="all: 255"
+    scale="glm::vec3(0.5, 0.5, 1), e3::ETransformAlignment::Bottom"
+    positionType="Absolute"
+    bottom="m: 60, d: 20">
+  </E3Logo>
+</Element>

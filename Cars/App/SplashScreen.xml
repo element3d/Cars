@@ -1,0 +1,28 @@
+<Element
+  width="100%"
+  height="100%"
+  backgroundColor="all: 255"
+  orientation="Vertical">
+
+  <Element
+    width="m: (600, 600, 600), d: 200"
+    height="m: (750, 750, 750), d: 250">
+    <E3Logo
+      element="mE3Logo">
+    </E3Logo>
+    <CarsLogo
+      element="mBmwLogo"
+      opacity="0"
+      positionType="Absolute">
+    </CarsLogo>
+    <Element
+      element="mMask"
+      width="100%"
+      height="100%"
+      positionType="Absolute"
+      backgroundColor="glm::vec4(0, 0, 0, 255)">
+    </Element>
+  </Element>
+ 
+  
+</Element>

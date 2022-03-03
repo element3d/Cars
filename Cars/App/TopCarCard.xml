@@ -1,0 +1,72 @@
+<Col
+  width="m: (510, 510, 510), d: 150"
+  height="m: (360, 360, 360), d: 110"
+  margin="m: (15, 15, 15), d: 5"
+  backgroundSize="Cover"
+  borderSize="m: (6, 6, 6), d: 2"
+  borderColor="all: 255">
+
+  <Element
+    element="mFlicker"
+    width="100%"
+    height="100%"
+    positionType="Absolute"
+    backgroundColor="glm::vec4(255, 255, 255, 0)"
+    opacity="0">
+  </Element>
+  <Element
+    element="mLight"
+    opacity="0"
+    width="150%"
+    height="60"
+    backgroundColor="glm::vec4(0)"
+    positionType="Absolute"
+    borderRadius="2"
+    smoothFactor="40"
+    rotation="30, glm::vec3(0, 0, 1), e3::ETransformAlignment::Center">
+  </Element>
+  <Element
+    element="mImage"
+    width="100%"
+    height="100%"
+    scaling="Shrink"
+    backgroundSize="Cover"
+    backgroundPosition="Center">
+  </Element>
+  <Element
+    width="100%"
+    height="m: (54, 54, 54), d: 18"
+    positionType="Absolute"
+    top="0"
+    alignItemsHor="Start"
+    backgroundColor="glm::vec4(255, 255, 255, 255)">
+    <Text
+      element="mYear"
+      fontSize="m: (36, 36, 36), d: 12"
+      marginLeft="m: (15, 15, 15), d: 5"
+      text="BWM 3 F30"
+      textColor="glm::vec4(0, 0, 0, 255)"
+      fontStyle="Bold">
+    </Text>
+  </Element>
+  <Element
+    width="50%"
+    height="m: (90, 90, 90), d: 30"
+    positionType="Absolute"
+    right="m: (-15, -15, -15), d: -5"
+    top="m: (-15, -15, -15), d: -5"
+    alignItemsHor="End"
+    borderType="Cut"
+    borderRadius="glm::vec4(0, 0, 0, 1)"
+    backgroundColor="#FF0054">
+    <Text
+      marginRight="m: (30, 30, 30), d: 10"
+      element="mPrice"
+      fontSize="m: (36, 36, 36), d: 12"
+      text="16000$"
+      textColor="glm::vec4(255)"
+      fontStyle="Bold">
+    </Text>
+  </Element>
+
+</Col>

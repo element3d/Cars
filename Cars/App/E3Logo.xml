@@ -1,0 +1,59 @@
+<Element
+  orientation="Vertical">
+  <Element
+    width="m: (300, 300, 300), d: 100"
+    height="m: (300, 300, 300), d: 100"
+    alignItemsVer="End">
+    <Element
+      element="mECont"
+      width="m: (240, 240, 240), d: 80"
+      height="m: (240, 240, 240), d: 80">
+      <Text
+        element="mEText"
+        opacity="0"
+        text="e"
+        font="_s(Cars/fonts/Rajdhani/Rajdhani-Medium.ttf)"
+        fontSize="m: (240, 240, 240), d: 80">
+      </Text>
+    </Element>
+    <Element
+      element="m3Cont"
+      width="m: (240, 240, 240), d: 80"
+      height="m: (240, 240, 240), d: 80">
+      <Text
+        element="m3Text"
+        opacity="0"
+        text="3"
+        font="_s(Cars/fonts/Rajdhani/Rajdhani-Medium.ttf)"
+        textColor="glm::vec4(255, 0, 76, 255)"
+        fontSize="m: (240, 240, 240), d: 80">
+      </Text>
+    </Element>
+
+    <Element
+      element="mE3Mask"
+      width="100%"
+      height="100%"
+      backgroundColor="glm::vec4(255, 0, 76, 255)"
+      positionType="Absolute">
+    </Element>
+  </Element>
+  <Element
+    width="m: (300, 300, 300), d: 100"
+    height="m: (66, 66, 66), d: 22">
+    <Text
+      element="mPBText"
+      opacity="0"
+      text="powered by"
+      font="_s(Cars/fonts/Rajdhani/Rajdhani-SemiBold.ttf)"
+      fontSize="m: (60, 60, 60), d: 20">
+    </Text>
+    <Element
+      element="mPB"
+      width="100%"
+      height="100%"
+      backgroundColor="glm::vec4(0, 0, 0, 255)"
+      positionType="Absolute">
+    </Element>
+  </Element>
+</Element>

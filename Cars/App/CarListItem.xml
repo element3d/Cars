@@ -1,0 +1,59 @@
+<Row
+  width="100%">
+
+  <CarListItemCard
+    element="mCard"
+    width="m: (300, 300, 300), d: 100"
+    height="m: (300, 300, 300), d: 100">
+  </CarListItemCard>
+  <Col
+    width="100%"
+    height="m: (270, 270, 270), d: 90"
+    scaling="Shrink"
+    padding="m: (15, 15, 15), d: 5"
+    alignItemsHor="Start">
+
+    <Element
+      backgroundColor="all: 255"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 0, 1, 0)"
+      padding="m: (15, 15, 15), d: 5">
+      <Text
+        element="mTitle"
+        text="BMW F30 328i"
+        fontSize="m: (60, 60, 60), d: 20"
+        marginLeft="m: (60, 60, 60), d: 20"
+        marginRight="m: (300, 300, 300), d: 100">
+      </Text>
+    </Element>
+    <Element
+      backgroundColor="glm::vec4(183, 255, 28, 255)"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 0, 1, 0)"
+      height="m: (66, 66, 66), d: 22">
+      <Element
+        backgroundColor="glm::vec4(255, 0, 76, 255)"
+        borderType="Cut"
+        borderRadius="glm::vec4(0, 0, 1, 0)"
+        padding="m: (15, 15, 15), d: 5">
+        <Text
+          element="mYear"
+          text="2013"
+          fontSize="m: (54, 54, 54), d: 18"
+          fontStyle="Bold"
+          textColor="all: 255"
+          marginLeft="m: (60, 60, 60), d: 20"
+          marginRight="m: (150, 150, 150), d: 50">
+        </Text>
+      </Element>
+      <Text
+        element="mPrice"
+        text="13 500$"
+        fontSize="m: (36, 36, 36), d: 12"
+        marginLeft="0"
+        marginRight="m: (90, 90, 90), d: 30">
+      </Text>
+     </Element>
+  </Col>
+
+</Row>

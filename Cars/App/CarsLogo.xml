@@ -1,0 +1,41 @@
+<Element
+  orientation="Vertical">
+  <Element
+    orientation="Vertical">
+    <Element
+      width="80"
+      height="80"
+      backgroundColor="glm::vec4(255, 0, 76, 255)">
+       <Text
+        textColor="all: 255"
+        opacity="0"
+        text="C"
+        font="_s(Cars/fonts/Rajdhani/Rajdhani-SemiBold.ttf)"
+        fontSize="m: (54, 54, 54), d: 50">
+      </Text>
+    </Element>
+  </Element>
+  <Element
+    element="mTextCont"
+    orientation="Vertical">
+    <Element
+      width="m: (150, 150, 150), d: 50"
+      height="m: (66, 66, 66), d: 22">
+      <Text
+        element="mBMWText"
+        textColor="all: 255"
+        opacity="0"
+        text="CARS"
+        font="_s(Cars/fonts/Rajdhani/Rajdhani-SemiBold.ttf)"
+        fontSize="m: (54, 54, 54), d: 18">
+      </Text>
+      <Element
+        element="mBMW"
+        width="100%"
+        height="100%"
+        backgroundColor="glm::vec4(0, 0, 0, 255)"
+        positionType="Absolute">
+      </Element>
+    </Element>
+  </Element>
+</Element>

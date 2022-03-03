@@ -1,0 +1,50 @@
+<Element
+  width="m: (60, 60, 120), d: 40"
+  height="m: (60, 60, 120), d: 40"
+  orientation="Vertical"
+  positionType="Absolute"
+  left="0"
+  top="0">
+
+  <Element
+    backgroundColor="all: 255"
+    padding="m: 6, d: 2"
+    positionType="Absolute"
+    left="50%"
+    top="0">
+    <Text
+      element="mTitle"
+      text="GARAGE"
+      fontSize="m: 42, d: 14"
+      fontStyle="Bold"
+      marginLeft="m: 60, d: 20"
+      marginRight="m: 15, d: 5">
+    </Text>
+  </Element>
+
+  <Element
+    width="100%"
+    height="100%"
+    borderRadius="all: 5"
+    borderSize="m: 6, d: 2"
+    borderColor="all: 255"
+    backgroundColor="#FF0054"
+    positionType="Absolute"
+    rotation="45, glm::vec3(0, 0, 1), e3::ETransformAlignment::Center">
+      <Shadow
+        color="glm::vec4(0, 0, 0, 255)"
+        softness="4">
+      </Shadow>
+  </Element>
+
+  <FontIcon
+    element="mIcon"
+    width="50%"
+    height="50%"
+    font="_s(Cars/fonts/home_icons.ttf)"
+    charcode="E800"
+    positionType="Absolute"
+    color="glm::vec4(255)">
+  </FontIcon>
+
+</Element>

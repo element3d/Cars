@@ -1,0 +1,39 @@
+<Row
+  borderSize="m: (3, 3, 3), d: 1"
+  borderColor="glm::vec4(0, 0, 0, 255)"
+  backgroundColor="glm::vec4(0, 0, 0, 255)">
+  <Element
+    element="mAll"
+    backgroundColor="glm::vec4(183, 255, 28, 255)"
+    padding="m: (12, 12, 12), d: 4">
+    <Text
+      element="mAllText"
+      text="BOTH"
+      fontStyle="Bold"
+      fontSize="m: (42, 42, 42), d: 14">
+    </Text>
+  </Element>
+  <Element
+    element="mLeft"
+    backgroundColor="glm::vec4(183, 255, 28, 255)"
+    padding="m: (12, 12, 12), d: 4">
+    <Text
+      element="mLeftText"
+      text="LEFT"
+      fontStyle="Bold"
+      fontSize="m: (42, 42, 42), d: 14">
+    </Text>
+  </Element>
+  <Element
+    element="mRight"
+    padding="m: (12, 12, 12), d: 4"
+    backgroundColor="glm::vec4(0, 0, 0, 255)">
+    <Text
+      element="mRightText"
+      text="RIGHT"
+      fontStyle="Bold"
+      fontSize="m: (42, 42, 42), d: 14"
+      textColor="all: 255">
+    </Text>
+  </Element>
+</Row>

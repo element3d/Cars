@@ -1,0 +1,529 @@
+<Col
+  width="100%"
+  height="100%"
+  alignItemsVer="Start"
+  alignItemsHor="Center"
+  positionType="Absolute">
+
+  <GradientBackground
+    element="mBG">
+  </GradientBackground>
+
+  <Col
+    element="mContent"
+    paddingTop="40dp"
+    width="100%"
+    height="100%"
+    scaling="Shrink"
+    overflow="Scroll">
+
+    <Row
+      width="100%"
+      alignItemsHor="End"
+      positionType="Absolute"
+      top="m: 60, d: 20"
+      right="m: 60, d: 20"
+      element="mControlButtons">
+      <FontIcon
+        element="mEditButton"
+        marginRight="10"
+        width="m: (60, 60, 60), d: 20"
+        aspectRatio="1"
+        charcode="E804"
+        font="_s(Cars/fonts/icons.ttf)"
+        color="glm::vec4(255)">
+      </FontIcon>
+      <FontIcon
+        element="mDeleteButton"
+        width="m: (60, 60, 60), d: 20"
+        aspectRatio="1"
+        charcode="E805"
+        font="_s(Cars/fonts/icons.ttf)"
+        color="glm::vec4(255)">
+      </FontIcon>
+    </Row>
+    <CarImagePanel
+      element="mCarImagePanel"
+      marginTop="m: 120, d: 40">
+    </CarImagePanel>
+    <Col
+      element="mContainer"
+      width="100%"
+      padding="m: (60, 60, 60), d: 20">
+
+      <Row
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="ON SALE"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Checkbox
+          element="mOnSaleCheckbox">
+        </Checkbox>
+      </Row>
+      <Row
+        element="mLocation"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="LOCATION"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Text
+          element="mLocationText"
+          fontSize="m: (42, 42, 42), d: 14"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <ListChevron
+          element="mLocationChevron">
+        </ListChevron>
+      </Row>
+      <!-- <ListItemLocation
+        element="mLocation">
+      </ListItemLocation> -->
+      <!-- <Row
+        element="mSubModel"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="Start">
+        <Text
+          text="MODEL"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+      </Row> -->
+      <Row
+        element="mPrice"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="PRICE"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row>
+          <Text
+            element="mPriceText"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+          <Text
+            element="mPriceSign"
+            text="$"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+        </Row>
+        <ListChevron
+          element="mPriceChevron">
+        </ListChevron>
+        <Row
+          element="mPriceFilter"
+          visibility="Hidden"
+          positionType="Absolute"
+          right="10">
+          <CInput
+            element="mPriceFrom"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+          <CInput
+            element="mPriceTo"
+            marginLeft="10"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+        </Row>
+      </Row>
+      <Row
+        element="mBodyType"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="BODY TYPE"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Text
+          element="mBodyTypeText"
+          fontSize="m: (42, 42, 42), d: 14"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <ListChevron
+          element="mBodyTypeChevron">
+        </ListChevron>
+      </Row>
+      <Row
+        element="mYear"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="YEAR"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row>
+          <Text
+            element="mYearText"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+        </Row>
+        <ListChevron
+          element="mYearChevron">
+        </ListChevron>
+        <Row
+          element="mYearFilter"
+          visibility="Hidden"
+          positionType="Absolute"
+          right="10">
+          <CInput
+            element="mYearFrom"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+          <CInput
+            element="mYearTo"
+            marginLeft="10"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+        </Row>
+      </Row>
+      <Row
+        element="mEngineType"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="ENGINE TYPE"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Text
+          element="mEngineTypeText"
+          fontSize="m: (42, 42, 42), d: 14"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <ListChevron
+          element="mEngineTypeChevron">
+        </ListChevron>
+      </Row>
+      <Row
+        element="mEngineSize"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="ENGINE SIZE"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row>
+          <Text
+            element="mEngineSizeText"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+          <Text
+            element="mEngineSizeSign"
+            text="L"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+        </Row>
+        <ListChevron
+          element="mEngineSizeChevron">
+        </ListChevron>
+        <Row
+          element="mEngineSizeFilter"
+          visibility="Hidden"
+          positionType="Absolute"
+          right="10">
+          <CInput
+            element="mEngineSizeFrom"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+          <CInput
+            element="mEngineSizeTo"
+            marginLeft="10"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+        </Row>
+      </Row>
+      <Row
+        element="mEnginePower"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="ENGINE POWER"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row>
+          <Text
+            element="mEnginePowerText"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+          <Text
+            element="mEnginePowerSign"
+            text="HP"
+            fontSize="m: (48, 48, 48), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+        </Row>
+        <ListChevron
+          element="mEnginePowerChevron">
+        </ListChevron>
+        <Row
+          element="mEnginePowerFilter"
+          visibility="Hidden"
+          positionType="Absolute"
+          right="10">
+          <CInput
+            element="mEnginePowerFrom"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+          <CInput
+            element="mEnginePowerTo"
+            marginLeft="10"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+        </Row>
+      </Row>
+      <Row
+        element="m0To100"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="0-100 KM\H"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row>
+          <Text
+            element="m0To100Text"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+          <Text
+            element="m0To100Sign"
+            text="S"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+        </Row>
+        <ListChevron
+          element="m0To100Chevron">
+        </ListChevron>
+        <Row
+          element="m0To100Filter"
+          visibility="Hidden"
+          positionType="Absolute"
+          right="10">
+          <CInput
+            element="m0To100From"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+          <CInput
+            element="m0To100To"
+            marginLeft="10"
+            width="m: (240, 240, 240), d: 80"
+            height="100%">
+          </CInput>
+        </Row>
+      </Row>
+      <Row
+        element="mTransmission"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="TRANSMISSION"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Text
+          element="mTransmissionText"
+          fontSize="m: (42, 42, 42), d: 14"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <ListChevron
+          element="mTransmissionChevron">
+        </ListChevron>
+      </Row>
+      <Row
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="STEARING WHEEL"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Switch
+          element="mStearingWheelSwitch">
+        </Switch>
+        <Switch3
+          element="mStearingWheelFilter"
+          visibility="Hidden">
+        </Switch3>
+      </Row>
+      <Row
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="EXCHANGE"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Checkbox
+          element="mExchangeCheckbox">
+        </Checkbox>
+        <Switch3
+          element="mExchangeFilter"
+          visibility="Hidden">
+        </Switch3>
+      </Row>
+      <Row
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="CUSTOMS CLEARED"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Checkbox
+          element="mCustomsClearedCheckbox">
+        </Checkbox>
+        <Switch3
+          element="mCustomsClearedFilter"
+          visibility="Hidden">
+        </Switch3>
+      </Row>
+      <Row
+        element="mColor"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="SpaceBetween">
+        <Text
+          text="COLOR"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row
+          element="mColorSign">
+          <Text
+            element="mColorText"
+            fontSize="m: (42, 42, 42), d: 14"
+            fontStyle="Bold"
+            textColor="all: 255">
+          </Text>
+          <Element
+            element="mColorElement"
+            width="m: 60, d: 20"
+            height="m: 60, d: 20">
+          </Element>
+        </Row>
+        <ListChevron
+          element="mColorChevron">
+        </ListChevron>
+      </Row>
+      <Col
+        element="mDescription"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="Start">
+        <Text
+          text="DESCRIPTION"
+          fontSize="m: (48, 48, 48), d: 16"
+          fontStyle="Bold"
+          textColor="all: 255">
+        </Text>
+        <Row
+          width="100%">
+          <TextArea
+            element="mDescriptionTextArea"
+            fontSize="m: (42, 42, 42), d: 14"
+            
+            backgroundColor="all: 255"
+            height="m: 900, d: 300">
+          </TextArea>
+        </Row>
+      </Col>
+      <Row
+        element="mButtonsPanel"
+        width="100%"
+        padding="m: (30, 30, 30), d: 10"
+        alignItemsHor="End">
+        <Button
+          text="CANCEL">
+        </Button>
+        <Button
+          element="mAddButton"
+          text="ADD"
+          marginLeft="m: 30, d: 10">
+        </Button>
+      </Row>
+    </Col>
+    <Element
+      element="mMask"
+      positionType="Absolute"
+      width="100%"
+      height="100%"
+      opacity="0"
+      backgroundColor="all: 255">
+    </Element>
+  </Col>
+
+  <AppBar
+    element="mAppBar"
+    scaling="Grow">
+  </AppBar>
+</Col>

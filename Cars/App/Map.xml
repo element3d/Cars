@@ -1,0 +1,110 @@
+<Element
+  width="100%"
+  height="100%"
+  scaling="Shrink"
+  overflow="Hidden">
+
+  <Element
+    element="mContainer">
+    <Element
+      backgroundImage="Cars/images/home/map_android.jpg">
+    </Element>
+    <Element
+      element="mMapLayer"
+      positionType="Absolute"
+      backgroundImage="Cars/images/home/layers_android.png">
+    </Element> 
+    <Element
+      element="mMarkers"
+      width="m: 3328, d: 1792"
+      height="m: 2304, d: 1280"
+      positionType="Absolute">
+
+      <Marker   
+        element="mGarage"
+        left="m: 1400, d: 700"
+        top="m: 1200, d: 600"
+        title="_s(GARAGE)"
+        icon="_s(E800)">
+      </Marker>
+      <Marker
+        element="mCars"
+        left="m: 1200, d: 600"
+        top="m: 1300, d: 650"
+        title="_s(CARS)"
+        icon="_s(E802)">
+      </Marker>
+      <Marker
+        element="mAutoParts"
+        left="m: 1000, d: 650"
+        top="m: 1100, d: 700"
+        title="_s(AUTO PARTS)"
+        icon="_s(E803)">
+      </Marker>
+      <Marker
+        element="mEvents"
+        left="m: 1220, d: 610"
+        top="m: 1020, d: 510"
+        title="_s(EVENTS)"
+        icon="_s(E802)">
+      </Marker>
+      <Marker
+        element="mServices"
+        left="m: 1500, d: 750"
+        top="m: 1000, d: 500"
+        title="_s(SERVICES)"
+        icon="_s(E803)">
+      </Marker>
+      <Marker
+        element="mShops"
+        left="m: 1500, d: 750"
+        top="m: 1400, d: 700"
+        title="_s(SHOPS)"
+        icon="_s(E801)">
+      </Marker>
+
+    </Element>
+    <Element
+      element="mClouds"
+      width="m: 3328, d: 1792"
+      height="m: 2304, d: 1280"
+      positionType="Absolute">
+
+      <Element
+        positionType="Absolute"
+        top="0"
+        backgroundImage="Cars/images/clouds/cloud6_top.png">
+      </Element>
+      <Element
+        positionType="Absolute"
+        bottom="0"
+        backgroundImage="Cars/images/clouds/cloud6_bottom.png">
+      </Element>
+      <Element
+        positionType="Absolute"
+        left="0"
+        backgroundImage="Cars/images/clouds/cloud6_left.png">
+      </Element>
+      <Element
+        positionType="Absolute"
+        right="0"
+        backgroundImage="Cars/images/clouds/cloud6_right.png">
+      </Element>
+      <Element
+        positionType="Absolute"
+        top="0"
+        backgroundImage="Cars/images/clouds/cloud4_top.png">
+      </Element>
+      <Element
+        positionType="Absolute"
+        bottom="0"
+        backgroundImage="Cars/images/clouds/cloud4_bottom.png">
+      </Element>
+      <Element
+        positionType="Absolute"
+        left="0"
+        backgroundImage="Cars/images/clouds/cloud4_left.png">
+      </Element>
+    </Element>
+  </Element>
+</Element>

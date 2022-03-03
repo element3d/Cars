@@ -1,0 +1,29 @@
+<Element
+  orientation="Vertical"
+  alignItemsVer="Start">
+
+  <GradientBackground
+    element="mBG">
+  </GradientBackground>
+
+  <Col
+    height="100%"
+    scaling="Shrink"
+    overflow="Scroll">
+    <TopCarsPanel
+      marginTop="m: (150, 150, 150), d: 50"
+      element="mTopCarsPanel">
+    </TopCarsPanel>
+
+    <Col
+      element="mContainer"
+      marginTop="20">
+    
+    </Col>
+  </Col>
+  <AppBar
+    element="mAppBar"
+    scaling="Grow">
+  </AppBar>
+
+</Element>

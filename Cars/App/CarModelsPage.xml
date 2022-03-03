@@ -1,0 +1,39 @@
+<Element
+  orientation="Vertical"
+  alignItemsVer="Start">
+
+  <GradientBackground
+    element="mBG">
+  </GradientBackground>
+
+  <TopCarsPanel
+    marginTop="m: (150, 150, 150), d: 50"
+    element="mTopCarsPanel">
+  </TopCarsPanel>
+
+  <Col
+    width="100%"
+    element="mContainer"
+    marginTop="10dp">
+    <!-- <Button2
+      element="mAllButton"
+      paddingTop="2"
+      paddingBottom="2"
+      width="m: (300, 300, 300), d: 100"
+      text="ALL"
+      backgroundColor="all: 255"
+      borderSize="0"
+      marginLeft="m: (30, 30, 30), d: 10">
+    </Button2> -->
+    <Carousel
+      alignItemsVer="Start"
+      element="mCarousel">
+    </Carousel>
+  </Col>
+
+  <AppBar
+    element="mAppBar"
+    scaling="Grow">
+  </AppBar>
+
+</Element>

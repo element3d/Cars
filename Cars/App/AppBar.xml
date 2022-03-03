@@ -1,0 +1,164 @@
+<Row
+  width="100%"
+  height="60dp"
+  positionType="Absolute"
+  alignItemsVer="Start"
+  top="0">
+
+  <Element
+    element="mBG"
+    height="40dp"
+    width="100%"
+    alignItemsHor="End"
+    backgroundColor="#000329">
+    <Element
+      height="80%">
+      <FontIcon
+        height="50%"
+        aspectRatio="1"
+        font="_s(Cars/fonts/app_bar2.ttf)"
+        charcode="E003"
+        color="#ffc800">
+      </FontIcon>
+      <Text
+        element="mNumGoldsText"
+        fontSize="14dp"
+        fontStyle="Bold"
+        textColor="all: 255"
+        marginLeft="m: 15, d: 5">
+      </Text>
+    </Element>
+
+    <Element
+      height="80%"
+      marginLeft="5dp">
+      <FontIcon
+        height="50%"
+        aspectRatio="1"
+        font="_s(Cars/fonts/app_bar2.ttf)"
+        charcode="E001"
+        color="#ff6200">
+      </FontIcon>
+      <Text
+        element="mRepText"
+        fontSize="m: 42, d: 14"
+        fontStyle="Bold"
+        textColor="all: 255"
+        marginLeft="m: 15, d: 5">
+      </Text>
+    </Element>
+
+    <Text
+      element="mTitle"
+      fontSize="m: 60, d: 20"
+      fontStyle="Bold"
+      text="MAP"
+      marginLeft="m: 90, d: 30"
+      marginRight="m: 90, d: 30"
+      textColor="all: 255">
+    </Text>
+
+    <Element
+      height="80%"
+      aspectRatio="1">
+      <FontIcon
+        width="50%"
+        height="50%"
+        font="_s(Cars/fonts/app_bar.ttf)"
+        charcode="E802"
+        color="all: 255">
+      </FontIcon>
+    </Element>
+    <Element
+      height="80%"
+      aspectRatio="1">
+      <FontIcon
+        width="50%"
+        height="50%"
+        font="_s(Cars/fonts/app_bar.ttf)"
+        charcode="E801"
+        color="all: 255">
+      </FontIcon>
+    </Element>
+
+    <Element
+      height="90%"
+      aspectRatio="1">
+      <FontIcon
+        width="50%"
+        height="50%"
+        font="_s(Cars/fonts/app_bar.ttf)"
+        charcode="E800"
+        color="all: 255">
+      </FontIcon>
+    </Element>
+
+    <Element
+      height="90%"
+      aspectRatio="1">
+      <FontIcon
+        width="50%"
+        height="50%"
+        font="_s(Cars/fonts/app_bar.ttf)"
+        charcode="E001"
+        color="all: 255">
+      </FontIcon>
+    </Element>
+    <Element
+      positionType="Absolute"
+      bottom="0"
+      backgroundColor="all: 255"
+      width="100%"
+      height="m: 3, d: 1">
+    </Element>
+  </Element>
+
+  <Element
+    element="mBack"
+    width="m: 180, d: 60"
+    height="m: 180, d: 60"
+    alignItemsHor="Start"
+    alignItemsVer="Start"
+    positionType="Absolute"
+    backgroundColor="all: 255"
+    borderType="Cut"
+    borderRadius="glm::vec4(0, 0, 1, 0)"
+    left="0"
+    top="0">
+    <!-- left="m: (60, 60, 60), d: 20"
+    top="m: (60, 60, 60), d: 20" -->
+    <Element
+      height="m: 120, d: 40"
+      marginLeft="m: 15, d: 5">
+      <Element
+        marginTop="0"
+        marginLeft="0">
+        <!-- <BackArrow 
+          opacity="0.4"
+          width="m: (12, 12, 12), d: 4"
+          height="m: (24, 24, 24), d: 8">  
+        </BackArrow>
+        <BackArrow
+          opacity="0.6"
+          width="m: (15, 15, 15), d: 5"
+          height="m: (30, 30, 30), d: 10">  
+        </BackArrow>
+        <BackArrow
+          opacity="0.8"
+          width="m: (18, 18, 18), d: 6"
+          height="m: (36, 36, 36), d: 12">  
+        </BackArrow> -->
+      </Element>
+    </Element>
+  </Element>
+
+  <Element
+    element="mMask"
+    top="0"
+    width="100%"
+    height="100%"
+    positionType="Absolute"
+    backgroundColor="glm::vec4(255)">
+  </Element>
+
+</Row>

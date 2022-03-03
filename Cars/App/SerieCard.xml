@@ -1,0 +1,143 @@
+<Element
+  width="m: (450, 450, 450), d: 150"
+  height="m: (600, 600, 600), d: 200"
+  backgroundSize="Cover"
+  overflow="Hidden"
+  margin="m: (6, 6, 6), d: 2"
+  borderSize="m: (12, 12, 12), d: 4"
+  borderColor="all: 255">
+
+<!--  <Element-->
+<!--    element="mOverlay"-->
+<!--    width="100%"-->
+<!--    height="100%"-->
+<!--    positionType="Absolute"-->
+<!--    backgroundSize="Cover"-->
+<!--    backgroundImageColor="glm::vec4(255)"-->
+<!--    backgroundImage="Cars/images/card_overlay.png">-->
+<!--  </Element>-->
+  <!-- <Element
+    width="100%"
+    height="100%"
+    positionType="Absolute"
+    backgroundPosition="Start"
+    backgroundSize="Contain"
+    backgroundImage="BmwClub/images/card_light.png">
+  </Element> -->
+
+  <!-- <Element
+    element="mBG1"
+    width="100%"
+    height="85%"
+    positionType="Absolute"
+    borderSize="1"
+    borderColor="all: 255"
+    backgroundColor="glm::vec4(230, 230, 230, 255)">
+  </Element>
+
+  <Element
+    element="mBG2"
+    width="95%"
+    height="90%"
+    positionType="Absolute"
+    borderSize="1"
+    borderColor="all: 255"
+    backgroundColor="glm::vec4(230, 230, 230, 255)">
+  </Element> -->
+
+  <Element
+    element="mBG3"
+    width="100%"
+    height="100%"  
+    backgroundSize="Contain"
+    borderColor="all: 255">
+  
+    <!-- borderSize="m: (6, 6, 6), d: 2" -->
+
+    <Element
+      element="mImage"
+      width="100%"
+      height="100%"
+      right="-20"
+      backgroundSize="Contain">
+    </Element>
+
+    <Element
+      width="100%"
+      aspectRatio="1"
+      positionType="Absolute"
+      bottom="0"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 1, 0, 0)"
+      backgroundColor="glm::vec4(255, 255, 255, 50)">
+    </Element>
+    <Element
+      backgroundColor="glm::vec4(162, 255, 0, 255)"
+      positionType="Absolute"
+      width="40%"
+      alignItemsHor="End"
+      top="0"
+      right="0"
+      padding="m: (12, 12, 12), d: 4"
+      borderType="Cut"
+      borderRadius="glm::vec4(0, 0, 0, 1)">
+      <Text
+        element="mCount"
+        text="x17"
+        fontSize="m: (36, 36, 36), d: 12"
+        fontStyle="Bold">
+      </Text>
+    </Element>
+
+    <Element
+      orientation="Vertical"
+      alignItemsHor="Start"
+      positionType="Absolute"
+      bottom="0"
+      left="0"
+      width="100%">
+      <Element>
+        <Element
+          width="m: (120, 120, 120), d: 40"
+          aspectRatio="1"
+          backgroundColor="all: 255"
+          positionType="Absolute"
+          left="0"
+          bottom="0"
+          borderType="Cut"
+          borderRadius="glm::vec4(0, 1, 0, 0)">
+        </Element>
+        <Element
+          backgroundColor="glm::vec4(0, 0, 0, 255)"
+          padding="m: (12, 12, 12), d: 4"  
+          marginBottom="m: (12, 12, 12), d: 4"
+          marginLeft="m: (12, 12, 12), d: 4"
+          alignItemsHor="Start">
+          <Text
+            element="mMake"
+            text="F30"
+            fontStyle="Bold"
+            fontSize="m: (30, 30, 30), d: 10"
+            textColor="all: 255">
+          </Text>
+        </Element>
+      </Element>
+      <Element
+        orientation="Vertical"
+        width="100%"
+        backgroundColor="all: 255"
+        padding="m: (12, 12, 12), d: 4"
+        borderType="Cut"
+        alignItemsHor="Start"
+        borderRadius="glm::vec4(0, 1, 0, 0)">
+        <Text
+          element="mTitle"
+          fontStyle="Bold"
+          fontSize="m: (36, 36, 36), d: 12">
+        </Text>
+      </Element>
+    </Element>
+    
+  </Element>
+
+</Element>

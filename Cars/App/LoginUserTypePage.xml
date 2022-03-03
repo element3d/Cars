@@ -1,0 +1,30 @@
+<Col>
+  <Row>
+    <LoginUserTypeCard
+      element="mDriver"
+      title="_s(DRIVER)">
+    </LoginUserTypeCard>
+    <LoginUserTypeCard
+      element="mAutoDiller"
+      title="_s(AUTO DILLER)">
+    </LoginUserTypeCard>
+    <LoginUserTypeCard
+      element="mCarShowRoom"
+      title="_s(CAR SHOW ROOM)">
+    </LoginUserTypeCard>
+  </Row>
+  <Row>
+    <LoginUserTypeCard
+      element="mAutoPartsStore"
+      title="_s(AUTO PARTS STORE)">
+    </LoginUserTypeCard>
+    <LoginUserTypeCard
+      element="mChopShop"
+      title="_s(CHOP SHOP)">
+    </LoginUserTypeCard>
+    <LoginUserTypeCard
+      element="mAutoService"
+      title="_s(AUTO SERVICE)">
+    </LoginUserTypeCard>
+  </Row>
+</Col>
